@@ -1,0 +1,19 @@
+technical_feature,random_forest_importance,mapped_consumer_reason
+credit_score,0.3334772690433099,Low credit score
+debt_to_income,0.2445313966706869,High debt-to-income ratio
+region_risk_score,0.08602366957909298,Elevated regional portfolio risk
+prior_default,0.08059895154369892,Prior default history
+income,0.07652043725883947,Income insufficient for requested loan
+loan_amount,0.0613286345409176,Loan amount high relative to profile
+age,0.046446317808114417,Other model risk factor
+loan_term_months,0.02005942977624189,Loan term increases repayment risk
+employment_status=Full-time,0.007860551697321425,Employment status increases repayment risk
+loan_purpose=Credit card consolidation,0.00692845898561325,Other model risk factor
+employment_status=Part-time,0.006909664717602498,Employment status increases repayment risk
+employment_status=Unemployed,0.006623717580681157,Employment status increases repayment risk
+loan_purpose=Home improvement,0.005538777704040659,Other model risk factor
+loan_purpose=Auto,0.005091664813267886,Other model risk factor
+loan_purpose=Personal,0.003743868462957368,Other model risk factor
+employment_status=Self-employed,0.003112552805514819,Employment status increases repayment risk
+loan_purpose=Education,0.0030127277720354783,Other model risk factor
+loan_purpose=Small business,0.002191909240063455,Other model risk factor

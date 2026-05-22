@@ -1,0 +1,10 @@
+applicant_id,model_score,rank,technical_feature,linear_shap_log_odds,direction,mapped_consumer_reason
+APP-00011,0.2834,1,debt_to_income,0.9182,increases predicted default risk,High debt-to-income ratio
+APP-00011,0.2834,2,credit_score,0.3253,increases predicted default risk,Low credit score
+APP-00011,0.2834,3,region_risk_score,0.1306,increases predicted default risk,Elevated regional portfolio risk
+APP-00013,0.2535,1,credit_score,1.12,increases predicted default risk,Low credit score
+APP-00013,0.2535,2,debt_to_income,0.3562,increases predicted default risk,High debt-to-income ratio
+APP-00013,0.2535,3,region_risk_score,0.0536,increases predicted default risk,Elevated regional portfolio risk
+APP-00014,0.523,1,debt_to_income,1.1278,increases predicted default risk,High debt-to-income ratio
+APP-00014,0.523,2,credit_score,1.0452,increases predicted default risk,Low credit score
+APP-00014,0.523,3,income,0.2095,increases predicted default risk,Income insufficient for requested loan
