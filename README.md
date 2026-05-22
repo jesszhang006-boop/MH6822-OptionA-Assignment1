@@ -1,2 +1,0 @@
-# MH6822-Assignment1
-G2505266E_ZHANG JUNYI_Assignment1
