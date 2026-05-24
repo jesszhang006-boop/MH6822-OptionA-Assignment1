@@ -1,0 +1,22 @@
+field_name,description,used_in_model,protected_or_proxy,synthetic_bias_role,production_credit_model_note
+applicant_id,Synthetic application identifier.,False,No,None.,Operational ID only; not a credit-risk predictor.
+jurisdiction,Active reporting jurisdiction for the simulated application.,False,Potential proxy,Assigned to demonstrate cross-border rule switching.,"Use for governance routing, not credit approval."
+age,Applicant age in years.,True,Protected/proxy,Age distribution is synthetic.,Age may be legally restricted or require counsel review before production use.
+age_group,Binned age label for portfolio review.,False,Protected/proxy,Derived from synthetic age.,Governance reporting only; avoid in production scoring unless explicitly permitted.
+gender,Synthetic gender attribute for documentation realism.,False,Protected,Randomly assigned; not used in the model.,Do not use in production credit scoring.
+protected_group,Synthetic protected-group proxy used for fairness monitoring.,False,Protected/proxy,Used to introduce a mild controlled disparity for monitoring demonstration.,Fairness analysis only; do not use as a production credit model input.
+income,Annual income in synthetic currency units.,True,Potential proxy,Generated from a lognormal distribution.,May be valid with affordability policy controls and data-quality validation.
+employment_status,Synthetic employment category.,True,Potential proxy,"Unemployment affects synthetic credit score, debt burden and default outcome.",Review for fair-lending proxy risk and reason-code suitability.
+credit_score,Synthetic bureau-style credit score.,True,Potential proxy,Protected-group proxy slightly lowers the generated score to create measurable disparity.,"Potentially valid only with bureau lineage, permissible-purpose checks and adverse-action mapping."
+debt_to_income,Synthetic debt-to-income ratio.,True,No,Higher values increase synthetic default risk.,Potentially valid affordability input with source validation.
+loan_amount,Requested synthetic loan amount.,True,Potential proxy,Generated independently from income and purpose.,Use with affordability controls; avoid encoding geography or protected status.
+loan_term_months,Requested loan term.,True,No,Sampled from common term buckets.,Potentially valid input if product policy permits.
+loan_purpose,Synthetic purpose for the requested loan.,True,Potential proxy,Categorical feature for reason-code demonstration.,Review for disparate-impact proxy risk before production use.
+prior_default,Synthetic prior-default indicator.,True,Potential proxy,Probability rises when synthetic credit score and debt burden worsen.,"Use only with accurate source data, recency policy and legal review."
+region_risk_score,Synthetic portfolio/geographic risk proxy.,True,Potential proxy,Protected group has a mild upward shift to demonstrate proxy-bias monitoring.,High-risk proxy; avoid or strictly validate before production scoring.
+default_next_12m,Synthetic target label for model training.,False,No,Generated from the synthetic risk equation.,Training target only; production needs validated repayment outcome lineage.
+model_score,Trained logistic-regression predicted probability of default.,False,Derived,Generated after fitting the model with predict_proba.,"Model output; audit and monitor, not an independent input."
+approved,Approval flag derived from model_score and the internal threshold.,False,Derived,Score below approval threshold is approved in the prototype.,Decision-support output only; production requires policy and human-control design.
+manual_review,Borderline score-band flag for human review.,False,Derived,Derived from the internal manual-review score band.,Operational routing output; production needs reviewer workflow and SLA controls.
+decision_reason_1,Top mapped adverse-action reason for rejected applications.,False,Derived,Generated from model-aligned risk factors.,Consumer-facing reason candidate; legal review required.
+decision_reason_2,Second mapped adverse-action reason for rejected applications.,False,Derived,Generated from model-aligned risk factors.,Consumer-facing reason candidate; legal review required.

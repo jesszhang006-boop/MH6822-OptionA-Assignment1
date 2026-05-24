@@ -1,0 +1,13 @@
+protected_group_score_shift,active_jurisdiction,approval_parity_ratio,threshold,fairness_flag,interpretation
+-0.04,US,0.9489,0.8,False,Monitor without escalation
+-0.04,EU,0.9489,0.9,False,Monitor without escalation
+-0.02,US,0.9256,0.8,False,Monitor without escalation
+-0.02,EU,0.9256,0.9,False,Monitor without escalation
+0.0,US,0.8855,0.8,False,Monitor without escalation
+0.0,EU,0.8855,0.9,True,Escalate under this jurisdiction
+0.02,US,0.8311,0.8,False,Monitor without escalation
+0.02,EU,0.8311,0.9,True,Escalate under this jurisdiction
+0.04,US,0.7975,0.8,True,Escalate under this jurisdiction
+0.04,EU,0.7975,0.9,True,Escalate under this jurisdiction
+0.06,US,0.7438,0.8,True,Escalate under this jurisdiction
+0.06,EU,0.7438,0.9,True,Escalate under this jurisdiction

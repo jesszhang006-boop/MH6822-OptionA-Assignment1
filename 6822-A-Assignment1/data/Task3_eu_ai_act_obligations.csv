@@ -1,0 +1,4 @@
+obligation_id,jurisdiction,source,article,control,evidence_output,owner
+EU-AIA-10-01,EU,AI Act,Art 10,data suitability and bias checks,data quality report + bias metrics,AI Governance
+EU-AIA-14-01,EU,AI Act,Art 14,human oversight,reviewer sign-off log,Model Risk
+EU-AIA-17-01,EU,AI Act,Art 17,QMS and version control,rule version + validation record,Compliance
