@@ -29,7 +29,7 @@ The selected regulated entity is Citi / Citigroup. The selected domain is AI cre
 
 Singapore and UK appear in the jurisdiction rule file only as extensible design examples. The substantive assignment analysis focuses on US and EU.
 
-#Recommended reading order for Task 3:
+## Recommended reading order for Task 3:
 
 1. Task3_Tool_Design_Deck.pdf
    Main senior-management presentation of the jurisdiction-aware RegTech tool.
