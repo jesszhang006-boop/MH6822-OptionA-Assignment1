@@ -3,6 +3,14 @@
 ZHANG JUNYI
 G2505266E
 JUNYI006@e.ntu.edu.sg
+## 🎥 Presentation Video
+
+Please watch the presentation video below:
+
+https://github.com/user-attachments/assets/94777bd1-01c0-455c-8286-053c3f6f5090
+
+If the video does not preview, open the link directly:
+[Open video](https://github.com/user-attachments/assets/94777bd1-01c0-455c-8286-053c3f6f5090)
 
 ## Topic
 
